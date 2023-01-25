@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.grid1{
+        background-color: cornflowerblue;
+    }
+    .grid2{
+        background-color: bisque;
+    }
+    .grid3{
+        background-color: rgb(179, 233, 240);
+    }
+    .grid4{
+       background-color: slategray;
+    }
+    .grid5{
+       background-color: mediumpurple;
+    }
+    .grid6{
+       background-color: rosybrown;
+    }
+
+    .container{
+        width: 90%;
+        margin:50px ;
+        border: 5px saddlebrown;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px 150px;
+        grid-row-gap: 25px;
+        grid-column-gap: 25px;
+        background-color: lightseagreen;
+    }
+    H1{
+        background-color: rgb(182, 196, 231);
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        text-shadow: 10px 10px blue;
+    }
